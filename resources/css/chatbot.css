@@ -1,0 +1,21 @@
+h2, h3, h4 {
+	font-family: Comic Sans MS;
+}
+
+body {
+	background-color: #FAFAFA;
+	/*background-color: #ebf5ff;*/  
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	height: 100%;
+}
+
+body #resume {
+	text-align: center;
+}
+
+body #resume #resume_header {
+	padding-bottom: 1%;
+}

@@ -1,0 +1,43 @@
+:root{
+/*    --main-blue: #00a5ff;*/
+    --main-blue: #0083FF;
+    --main-blue-darker: #3B5998;
+    --main-orange: #FF7C00;
+    --main-orange-darker: #E67000;
+}
+.navbar-custom {
+	background-color: #FFFFFF;
+    /*background-color: #ebf5ff;*/
+	box-shadow: .2rem .2rem .1rem .1rem #ccc;
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: Trebuchet MS;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #000000;
+}
+/* change the link color and add padding for height */
+.navbar-custom .navbar-nav .nav-link {
+    color: #000000;
+    padding: .6rem 1rem .5rem 1rem;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: var(--main-blue);
+    /*background-color: #ee4400;*/ /* add background-color to active links */
+}
+
+.navbar-custom .navbar-brand {
+    color: var(--main-blue);
+}
+.page-content {
+    margin-top: 5rem;
+}
+footer {
+    text-align: center;
+}
+
+
