@@ -30,19 +30,20 @@ body .explain_part {
 
 body .explain_part #section_header {
 	text-align: center;
-	text-shadow: .1rem .1rem #ccc;
+	/*text-shadow: .1rem .1rem #ccc;*/
 	/*text-shadow: .1rem .1rem #bce8ff;*/
 	padding-bottom: .5%;
 }
 	
 
 body .explain_part .text_whitebg {
-	box-shadow: .3rem .3rem .5rem .5rem #ccc;
-	background-color: #FFFFFF;
+	
 	padding: 1.5%;
 	font-size: 125%;
 	font-family: Trebuchet MS;
 	/*
+	box-shadow: .3rem .3rem .5rem .5rem #ccc;
+	background-color: #FFFFFF;
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  
 	-moz-box-shadow:    3px 3px 5px 6px #ccc;  
 	box-shadow:         3px 3px 5px 6px #ccc;  */
